@@ -56,12 +56,12 @@
 
 					<!-- If the menu (WP admin area) is not set, then the "menu_class" is applied to "container". In other words, it overwrites the "container_class" -->
 
-					<?php 
+					<?php
 						wp_nav_menu(array(
 							"theme_location" => "primary",
 							"container" => "nav",
 							"container_class" => "navbar-collapse collapse",
-							"menu_class" => "nav navbar-nav navbar-right"
+                            "menu_class" => "nav navbar-nav navbar-right"
 						));
 					?>
                 </div>
